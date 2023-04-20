@@ -1,0 +1,10 @@
+name = "Bar"
+uuid = "57ed0060-4b6e-431e-b70a-84969de01c9c"
+authors = ["marius <mariusmillea@gmail.com>"]
+version = "0.1.0"
+
+[weakdeps]
+Foo = "82aed761-c057-47b8-b448-55710032cedf"
+
+[extensions]
+BarFooExt = "Foo"
